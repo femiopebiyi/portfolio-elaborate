@@ -201,7 +201,7 @@ export default function Page() {
             <a href="#stack">Stack</a>
             <a href="#path">Path</a>
             <a href="#about">About</a>
-            <a href="#contact" className="nav-hire">Hire ↗</a>
+            <a href="#contact" className="nav-hire">Hire →</a>
           </div>
           <button
             className={`nav-burger${menuOpen ? " open" : ""}`}
@@ -225,7 +225,7 @@ export default function Page() {
         <a href="#stack">Stack</a>
         <a href="#path">Path</a>
         <a href="#about">About</a>
-        <a href="#contact" className="nav-hire">Hire ↗</a>
+        <a href="#contact" className="nav-hire">Hire →</a>
       </div>
 
       {/* HERO */}
@@ -280,7 +280,7 @@ export default function Page() {
                     <p className="proj-desc">{p.desc}</p>
                     <div className="proj-links">
                       {p.links.map((l) => (
-                        <a key={l.u} href={l.u} target="_blank" rel="noopener noreferrer">{l.t} ↗</a>
+                        <a key={l.u} href={l.u} target="_blank" rel="noopener noreferrer">{l.t} →</a>
                       ))}
                     </div>
                   </div>
@@ -380,7 +380,7 @@ export default function Page() {
             </div>
             <div className="contact-row">
               <a href="mailto:opebiyibiodun10@gmail.com" className="btn fill">opebiyibiodun10@gmail.com<span className="ar">→</span></a>
-              <a href="https://github.com/femiopebiyi" target="_blank" rel="noopener noreferrer" className="btn">GitHub<span className="ar">↗</span></a>
+              <a href="https://github.com/femiopebiyi" target="_blank" rel="noopener noreferrer" className="btn">GitHub<span className="ar">→</span></a>
             </div>
           </div>
         </div>
