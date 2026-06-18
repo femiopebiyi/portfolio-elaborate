@@ -52,9 +52,9 @@ function EscrowViz() {
       <rect x="258" y="88" width="24" height="24" fill="none" stroke="#c6f24e" strokeWidth="1.2" />
       <text x="270" y="130" fill="#54544e" fontFamily="var(--font-mono)" fontSize="8" textAnchor="middle">HUNTER</text>
       <circle r="3" fill="#c6f24e">
-        <animate attributeName="cx" values="160;270" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="cx" values="50;270" dur="3s" repeatCount="indefinite" />
         <animate attributeName="cy" values="100;100" dur="3s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.45;.5;.95;1" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.9;1" dur="3s" repeatCount="indefinite" />
       </circle>
     </svg>
   );
